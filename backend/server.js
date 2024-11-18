@@ -12,7 +12,13 @@ connectDB();
 const app = express();
 
 
-app.use(cors());
+//CORS COnfiguration,
+const corsOptions = {
+  origin: '*', // Allowing all origins.
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  preflightContinue: false,
+  optionsSuccessStatus: 204
+};
 app.use(express.json());
 
 
