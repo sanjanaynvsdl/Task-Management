@@ -1,5 +1,6 @@
-```markdown project="Task Management" file="README.md"
-...
+# Task Management 
+A RESTful API for efficient task management, built using MongoDB, Node.js, and Express framework.
+
 ```
 
 backend/
@@ -20,8 +21,7 @@ backend/
 ├── utils/
 ├── .env
 └── server.js
-
-```plaintext
+```
  
 
 ## API Endpoints
@@ -39,7 +39,7 @@ backend/
 
 ## Installation & Setup
 
-1. Clone the repository
+ 1. Clone the repository
 
    ```bash
    git clone https://github.com/sanjanaynvsdl/Task-Management.git
@@ -50,7 +50,7 @@ backend/
 2. Install dependencies
 
 ```shellscript
- npm installnpm install
+ npm install
 
 ```
 
@@ -69,7 +69,7 @@ JWT_EXPIRE=24h
 4. Start the server
 
 ```shellscript
- npm startnpm start
+ npm start
 
 ```
 
@@ -85,18 +85,6 @@ JWT_EXPIRE=24h
 - Pagination support
 - Error handling
 - Input validation
-
-
-## Task Model
-
-Tasks include the following properties:
-
-- `title`: String (required)
-- `description`: String (required)
-- `status`: String (pending/in-progress/completed)
-- `priority`: String (low/medium/high)
-- `dueDate`: Date
-- `userId`: Reference to User
 
 
 ## Error Handling
