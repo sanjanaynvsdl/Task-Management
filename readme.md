@@ -2,8 +2,7 @@
 A RESTful API for efficient task management, built using MongoDB, Node.js, and Express framework.
 
 ```
-
-backend/
+Task-Management
 ├── config/
 │   └── db.js
 ├── controllers/
@@ -20,7 +19,7 @@ backend/
 │   └── taskRoutes.js
 ├── utils/
 ├── .env
-└── server.js
+└── index.js
 ```
  
 
