@@ -21,9 +21,12 @@ const corsOptions = {
 };
 app.use(express.json());
 
-
+app.get('/', (req,res)=> {
+  res.json({message:"Working"})
+})
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
+
 
 
 app.use(errorHandler);
