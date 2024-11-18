@@ -58,7 +58,7 @@ backend/
 3. Create a .env file in the root directory and add:
 
 ```plaintext
-PORT=5000PORT=5000
+PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRE=24h
